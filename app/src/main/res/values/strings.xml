@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YT-MEDIA</string>
+    <string name="brand">YT-MEDIA</string>
+    <string name="sign_in">Sign in</string>
+    <string name="search">Search</string>
+    <string name="close">Close</string>
+    <string name="play_pause">Play or pause</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_shorts">Shorts</string>
+    <string name="tab_subs">Subscriptions</string>
+    <string name="tab_library">Library</string>
+</resources>
