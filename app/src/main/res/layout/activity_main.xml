@@ -99,7 +99,7 @@
                 android:maxLines="1"
                 android:ellipsize="end"
                 android:textColor="@color/yt_text"
-                android:textSize="13sp"
+                android:textSize="13sp" />
 
             <ImageButton
                 android:id="@+id/miniPlay"
