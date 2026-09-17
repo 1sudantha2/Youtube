@@ -29,7 +29,7 @@ jobs:
             echo "::group::failure tail"
             tail -c 8000 /tmp/build.log
             echo "::endgroup::"
-            grep -nE "^e: |error:|FAILURE|What went wrong|Caused by|> " /tmp/build.log | tail -40 | while read -r l; do
+            grep -niE "error|exception|invalid|duplicate|\.xml" /tmp/build.log | tail -40 | while read -r l; do
               echo "::error::${l//$'\n'/ }"
             done
             exit 1
